@@ -11,9 +11,10 @@ public class CondicionaisAula3 {
         double salary= 50000;
 
         if (salary > maxPercent) {
-            System.out.println(salary * 0.30);
+            System.out.print("30% of " + salary + " e = ");
+            System.out.println(salary * 0.3);
         } else {
-            System.out.print("15% of " + salary + " is: ");
+            System.out.print("15% of " + salary + " e = ");
             System.out.println(salary * 0.15);
         }
 
